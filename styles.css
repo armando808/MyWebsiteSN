@@ -48,16 +48,16 @@ main {
 .profile h1 {
     margin: 10px 0;
     font-size: 2.2em;
-    color: #569cd6;
+    color: #0e7777;
 }
 
 .profile h2 {
     font-size: 1.5em;
-    color: #dcdcaa;
+    color: #70085d;
 }
 
 h3 {
-    color: #c586c0;
+    color: #70085d;
     border-bottom: 1px solid #333;
     padding-bottom: 5px;
     margin-bottom: 15px;
@@ -90,7 +90,7 @@ input[type="text"] {
 
 button {
     padding: 8px 15px;
-    background-color: #569cd6;
+    background-color: #0e7777;
     color: white;
     border: none;
     border-radius: 4px;
@@ -98,5 +98,5 @@ button {
 }
 
 button:hover {
-    background-color: #4682b4;
+    background-color: #148e81;
 }
