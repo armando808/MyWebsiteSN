@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1e1e1e; 
+    color: #d4d4d4;
+}
+
+nav {
+    background-color: #252526;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #569cd6;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #1e1e1e;
+    border-radius: 8px;
+}
+
+
+.profile {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.profile img {
+    max-width: 150px;
+    border-radius: 50%;
+    border: 2px solid #333;
+    margin-bottom: 10px;
+}
+
+.profile h1 {
+    margin: 10px 0;
+    font-size: 2.2em;
+    color: #569cd6;
+}
+
+.profile h2 {
+    font-size: 1.5em;
+    color: #dcdcaa;
+}
+
+h3 {
+    color: #c586c0;
+    border-bottom: 1px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+ul {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    list-style-type: disc;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+input[type="text"] {
+    padding: 8px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    background: #252526;
+    color: #d4d4d4;
+    margin-right: 10px;
+}
+
+button {
+    padding: 8px 15px;
+    background-color: #569cd6;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4682b4;
+}

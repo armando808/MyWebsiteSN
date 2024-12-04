@@ -3,10 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content = "Amazing webpage"/>
-    <title>Document</title>
+    <meta name="description" content="Arthur Grimley's Profile Page">
+    <title>Arthur Grimley's Profile</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>My Website</h1>
+    <nav>
+        <a href="https://github.com/armando808" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/arthurgrimley/" target="_blank">LinkedIn</a>
+    </nav>
+
+    <main>
+        <section class="profile">
+            <h1>Arthur Grimley</h1>
+            <h2>My Profile</h2>
+            <img src="./linkedinPfp.jpeg" alt="Arthur Grimley's Profile Picture">
+        </section>
+
+        <section>
+            <h3>My Certifications</h3>
+            <ul>
+                <li>CSA (Certified ServiceNow Administrator)</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Hobbies</h3>
+            <ul>
+                <li>Music</li>
+                <li>Travel</li>
+                <li>Food</li>
+                <li>Football (MUFC)</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Goals</h3>
+            <ul>
+                <li>Get through intensive training - have time/energy for hobbies again</li>
+                <li>Succeed in role, make the most of the opportunity</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Search for News</h3>
+            <form action="https://www.bbc.co.uk/search" method="get" target="_blank">
+                <input type="text" name="q" placeholder="Search BBC News..." value="Sheffield">
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
 </body>
 </html>
